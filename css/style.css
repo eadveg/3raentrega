@@ -1,0 +1,109 @@
+body {
+  background-color: #7ee8fa;
+  background-image: url("../img/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header ul a {
+  color: black;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header ul a:hover {
+  background-color: #ffffff80;
+  -webkit-box-shadow: 1px 1px 15px #7ee8fa;
+          box-shadow: 1px 1px 15px #7ee8fa;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header .imglogo {
+  width: 35px;
+}
+
+header .no {
+  color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+header .no:hover {
+  background-color: #ffffff00;
+}
+
+main .svbutton {
+  margin: 1rem;
+}
+
+main .srv {
+  padding-bottom: 1rem;
+}
+
+main .h3s {
+  height: 5rem;
+}
+
+main .bgw {
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 0px 0px 5px #7ee8fa;
+          box-shadow: 0px 0px 5px #7ee8fa;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+main .bgw:hover {
+  background-color: #ffffff80;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 0px 0px 15px gray;
+          box-shadow: 0px 0px 15px gray;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+main .bx {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+main .bx:hover {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+main .imgbox {
+  width: 13.125rem;
+  height: 9.875rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 10px #7ee8fa;
+          box-shadow: 0px 0px 10px #7ee8fa;
+  opacity: 0.8;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+main .imgbox:hover {
+  width: 13.125rem;
+  height: 9.875rem;
+  opacity: 1;
+  -webkit-box-shadow: 0px 0px 15px black;
+          box-shadow: 0px 0px 15px black;
+  border-radius: 5%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+footer {
+  background-color: #ffffff00;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */
